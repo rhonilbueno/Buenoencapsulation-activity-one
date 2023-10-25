@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class BuenoChicken {
+
+   final static double C1 = 109.00;
+   final static double C2 = 153.00;
+   final static double C3 = 259.00;
+   final static double C4 = 499.00;
+   final static double C5 = 699.00;
+   
+  public static void main(String [] arhs){
+   System.out.println("Customer Order");
+   System.out.println(" ");
+   Scanner sc = new Scanner (System.in);
+   
+   int numberofMenu = 5;
+   int numberofAddOns = 1;
+   
+   System.out.println("Menu Selection");
+   
+   System.out.println("C2 = 153.00");
+   System.out.println("C3 = 259.00");
+   System.out.println("C4 = 499.00");
+   System.out.println("C5 = 699.00");
+   
+    System.out.println("Add Ons");
+   System.out.println("P1 = 35.00");
+   System.out.println("P2 = 50.00");
+   
+   
+   System.out.println("Number of Order");
+   numberofMenu = sc.nextInt();
+   
+   System.out.println("Number of Add Ons");
+   numberofAddOns = sc.nextInt();
+   
+  System.out.println("Number of Order: " + numberofMenu);
+  System.out.println("Number of Add Ons: " + numberofAddOns+"\n");
+  
+  }
+ }
